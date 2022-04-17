@@ -1,28 +1,23 @@
 import torch
+import matplotlib.pyplot as plt
 from torch.utils.data import DataLoader
-
+import numpy as np
 from expert_dataset import ExpertDataset
 from models.affordance_predictor import AffordancePredictor
 
-import os,copy,time
-from tqdm import tqdm
-from ipdq import set_trace
+
+
+
 
 
 def validate(model, dataloader):
-   
-    
-    pass
-   
     """Validate model performance on the validation dataset"""
-    
-    
+    # Your code here
+    pass
 
 
 def train(model, dataloader):
-    
-    
-    
+    """Train model on the training dataset for one epoch"""
     # Your code here
     pass
 
