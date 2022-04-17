@@ -34,9 +34,9 @@ def plot_losses(train_loss, val_loss):
     
     my_custom_array=np.array(my_custom_array) #Converting to numpy array
     
-    plt.title(" - The Epoch Values vs The Loss Values - ")
-    plt.xlabel("The Epoch Values")
-    plt.ylabel("The Loss Values")
+    plt.title(" - The Epoch Values vs The Loss Values - ") #giving title to the plot
+    plt.xlabel("The Epoch Values") # naming for x axis
+    plt.ylabel("The Loss Values")  # naming for y axis
    
     
     
@@ -54,7 +54,7 @@ def plot_losses(train_loss, val_loss):
     
     plt.legend([train_str, validation_str], loc = location_str)
    
-    plt.show()
+    plt.show() #displaying the plots 
     
     print("*******The End of the plotting*****")
    
